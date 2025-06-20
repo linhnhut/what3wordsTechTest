@@ -29,3 +29,18 @@ dependencyResolutionManagement {
 }
 
 include(":composeApp")
+
+// Core modules
+include(":core:common")
+include(":core:data")
+include(":core:database")
+include(":core:design-system")
+include(":core:domain")
+include(":core:model")
+include(":core:network")
+include(":core:ui")
+include(":core:utils")
+
+// Feature modules
+include(":feature:movies")
+include(":feature:moviedetail")
